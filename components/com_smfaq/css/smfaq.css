@@ -1,0 +1,61 @@
+#smfaq {margin-top:10px;}
+.smfaq-copy {text-align:center;font-size:smaller;}
+#smfaq .question {font-family: UbuntuMedium;font-size: 24px; margin:15px 0 0px 0;line-height:25px;padding:4px 0px 4px 60px;overflow: hidden;background:url(../../../media/com_smfaq/images/car.png) 0px 4px no-repeat;}
+#smfaq .active {}
+#smfaq-unpub.active {color:black;background:none; }
+#smfaq .question:hover {cursor:pointer;}
+#smfaq .answer_content {padding:0;}
+#smfaq .answer {overflow:hidden;}
+#smfaq .answer p{font-family:UbuntuLight; font-size: 16px; line-height: 1.3em; margin: 8px 0;}
+#smfaq .loader {background: url(../../../media/com_smfaq/images/ajax-loader.gif) no-repeat left;height:16px;display:none;}
+#smfaq .button {
+	display: block;
+    width: 150px;
+    border: 2px solid #579565;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 75px auto 15px;
+    color: #579565;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+#smfaq .button:hover {cursor:pointer; text-decoration: underline;}
+#smfaq a.button, #smfaq a.button:hover {text-decoration:none;}
+#smfaq .err-msg {display: none; padding:4px 10px 4px 30px;margin:2px 0 2px 0;background:#FFD7D7 url(../../../media/com_smfaq/images/error_icon.png) no-repeat 5px 50%; font-weight:bold;}
+#smfaq .vote div.err-msg {padding:0;background:none;color:red;display:inline-block;}
+#smfaq .ok-msg {padding:4px 10px 4px 30px;background:#A7E29A url(../../../media/com_smfaq/images/good_icon.png) no-repeat 5px 50%;}
+#smfaq .vote {background: #DFDFDF;font-weight:bold; margin:10px 0 0 0;border:1px solid #936;padding:10px 10px;}
+#smfaq .vote textarea {width:60%;height:80px;}
+#smfaq .info {clear:both;background:#DEE9F4;line-height:20px;font-weight:bold;margin:10px 0 0 0;border:1px solid #BFBAB1;padding:10px}
+#smfaq .author {text-align:left;}
+#smfaq .ans-date, #smfaq .date {float:right;}
+#smfaq .clr {clear:both;}
+#smfaq .back-link {margin:20px;text-align:center;}
+#smfaq .single_question {font-weight:bold;margin:5px 0 5px 0;}
+#smfaq .question-link {margin:5px 0 5px 0;}
+
+/*question form */
+#smfaq-form {width:750px;}
+#smfaq-form .titleform {font-family:UbuntuMedium;font-size:36px;color: #579565;text-align:center;margin: 10px 0 30px;}
+#smfaq-form label {float:left;margin:14px 0 0 0;width: 210px;}
+#smfaq-form input {float:left;margin:5px 0 0 0;width:430px;clear:right;border:2px solid #e2e2e2; padding: 10px; border-radius: 5px;}
+#smfaq-form textarea {float:left;margin:10px 0 0 0;width:430px;border:2px solid #e2e2e2; padding: 10px; border-radius: 5px;}
+#smfaq-form input:focus, #smfaq-form textarea:focus  {outline: none;}
+#smfaq-form .required {font-weight:bold;}
+#smfaq-form .error {border-color:#D62950;}
+#smfaq-form .count {clear:both;height:30px;}
+#smfaq-form .lastcount {color:red;}
+#smfaq-form img {float:left;}
+#smfaq-form .captcha input {width:50px;margin:10px 0 0 0;clear:both;}
+#smfaq-form .ch_email input {width:15px;height:15px;clear:both;}
+#smfaq-form .ch_email label, #smfaq-form .captcha label {width:320px;clear:none;margin:14px 0 0 10px;}
+
+.smfaq-print {text-align:right;margin:10px 15px 0 0;}
+//div.smfaq-print:after  { clear:both; }
+/* ie7 fix */
+#smfaq span.author, #smfaq span.ans-author {*display:block;*float:left;*width:50%;}
+#smfaq .ans-date, #smfaq .date {*display:block;*width:50%;*text-align:right;}
+#smfaq .info {*padding-bottom:30px;}
+#smfaq .vote {*display:inline-block;}
+#smfaq .vote div.err-msg{*display:inline;zoom:1;}

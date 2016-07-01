@@ -1,0 +1,520 @@
+<html>
+<head>
+<!-- revisium.com/ai/ -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
+<title>Отчет по /var/www/rostyslav-842/data/www/osagoua.com.ua</title>
+<style type="text/css" title="currentStyle">
+	@import "https://revisium.com/extra/media/css/demo_page2.css";
+	@import "https://revisium.com/extra/media/css/jquery.dataTables2.css";
+</style>
+
+<script type="text/javascript" language="javascript" src="https://yandex.st/jquery/2.1.0/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://datatables.net/download/build/jquery.dataTables.js"></script>
+
+<style type="text/css">
+ body 
+ {
+   font-family: Tahoma;
+   color: #5a5a5a;
+   background: #FFFFFF;
+   font-size: 14px;
+   margin: 20px;
+   padding: 0;
+ }
+
+.header
+ {
+   font-size: 34px;
+   margin: 0 0 10px 0;
+ }
+
+ .hidd
+ {
+    display: none;
+ }
+ 
+ .ok
+ {
+    color: green;
+ }
+ 
+ .line_no
+ {
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+   background: #DAF2C1;
+   padding: 2px 5px 2px 5px;
+   margin: 0 5px 0 5px;
+ }
+ 
+ .credits_header 
+ {
+  -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+   background: #F2F2F2;
+   padding: 10px;
+   font-size: 11px;
+    margin: 0 0 10px 0;
+ }
+ 
+ .marker
+ {
+    color: #FF0090;
+	font-weight: 100;
+	background: #FF0090;
+	padding: 2px 0px 2px 0px;
+	width: 2px;
+ }
+ 
+ .title
+ {
+   font-size: 24px;
+   margin: 20px 0 10px 0;
+   color: #9CA9D1;
+}
+
+.summary 
+{
+  float: left;
+  width: 500px;
+}
+
+.summary TD
+{
+  font-size: 12px;
+  border-bottom: 1px solid #F0F0F0;
+  font-weight: 700;
+  padding: 10px 0 10px 0;
+}
+ 
+.crit, .vir
+{
+  color: #D84B55;
+}
+
+.intitem
+{
+  color:#4a6975;
+}
+
+.spacer
+{
+   margin: 0 0 50px 0;
+   clear:both;
+}
+
+.warn
+{
+  color: #F6B700;
+}
+
+.clear
+{
+   clear: both;
+}
+
+.offer
+{
+  -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+   width: 500px;
+   background: #ECF7DE;
+   color: #747474;
+   font-size: 11px;
+   font-family: Arial;
+   padding: 20px;
+   margin: 20px 0 0 500px;
+   
+   font-size: 16px;
+}
+ 
+.flist
+{
+   font-family: Arial;
+}
+
+.flist TD
+{
+   font-size: 11px;
+   padding: 5px;
+}
+
+.flist TH
+{
+   font-size: 12px;
+   height: 30px;
+   padding: 5px;
+   background: #CEE9EF;
+}
+
+
+.it
+{
+   font-size: 14px;
+   font-weight: 100;
+   margin-top: 10px;
+}
+
+.crit .it A {
+   color: #E50931; 
+   line-height: 25px;
+   text-decoration: none;
+}
+
+.warn .it A {
+   color: #F2C900; 
+   line-height: 25px;
+   text-decoration: none;
+}
+
+
+
+.details
+{
+   font-family: Calibri;
+   font-size: 12px;
+   margin: 10px 10px 10px 0px;
+}
+
+.crit .details
+{
+   color: #A08080;
+}
+
+.warn .details
+{
+   color: #808080;
+}
+
+.details A
+{
+  color: #FFF;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 2px;
+  background: #E5CEDE;
+  -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+}
+
+.details A:hover
+{
+   background: #A0909B;
+}
+
+.ctd
+{
+   margin: 10px 0px 10px 0;
+   align:center;
+}
+
+.ctd A 
+{
+   color: #0D9922;
+}
+
+.disclaimer
+{
+   color: darkgreen;
+   margin: 10px 10px 10px 0;
+}
+
+.note_vir
+{
+   margin: 10px 0 10px 0;
+   //padding: 10px;
+   color: #FF4F4F;
+   font-size: 15px;
+   font-weight: 700;
+   clear:both;
+  
+}
+
+.note_warn
+{
+   margin: 10px 0 10px 0;
+   color: #F6B700;
+   font-size: 15px;
+   font-weight: 700;
+   clear:both;
+}
+
+.note_int
+{
+   margin: 10px 0 10px 0;
+   color: #60b5d6;
+   font-size: 15px;
+   font-weight: 700;
+   clear:both;
+}
+
+.updateinfo
+{
+  color: #FFF;
+  text-decoration: none;
+  background: #E5CEDE;
+  -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+
+  margin: 10px 0 10px 0px;   
+  padding: 10px;
+}
+
+
+.caution
+{
+  color: #EF7B75;
+  text-decoration: none;
+  margin: 20px 0 0px 0px;   
+  font-size: 12px;
+}
+
+.footer
+{
+  color: #303030;
+  text-decoration: none;
+  background: #F4F4F4;
+  -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+
+  margin: 80px 0 10px 0px;   
+  padding: 10px;
+}
+
+.rep
+{
+  color: #303030;
+  text-decoration: none;
+  background: #94DDDB;
+  -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+
+  margin: 10px 0 10px 0px;   
+  padding: 10px;
+  font-size: 12px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="header">Отчет сканера <a href="https://revisium.com/ai/">AI-Bolit</a> v20160202: /var/www/rostyslav-842/data/www/osagoua.com.ua/ (1/1)</div>
+<div class="credits_header">Скрипт бесплатный только для личного некоммерческого использования. Есть <a href="https://revisium.com/ai/faq.php#faq11" target=_blank>коммерческая лицензия</a> (пункт №11).</div>
+<div class="details_header">
+   Затрачено времени: <b>1 m 44 s</b>. Сканирование начато 15-02-2016 в 12:50:21, сканирование завершено 15-02-2016 в 12:52:05<br/>
+   Всего проверено 1852 директорий и 12245 файлов. Использовано памяти при сканировании: 9.97 Mb.
+ </div>
+
+ 
+ 
+ <div class="summary">
+<div class="title">Сводный отчет</div><table cellspacing=0 border=0><tr><td class="warn" width=400>Пропущенных больших файлов</td><td class="warn">6</td></tr><tr><td class="warn" width=400>Скрытых файлов</td><td class="warn">1</td></tr></table><div class=details style="margin: 20px 20px 20px 0">Обращаем внимание, что обнаруженные файлы не всегда являются вирусами и хакерскими скриптами. Сканер старается минимизировать число ложных обнаружений, но это не всегда возможно, так как найденный фрагмент может встречаться как во вредоносных скриптах, так и в обычных.</div>
+
+ </div>
+ 
+ <div class="offer">
+Обращаем внимание на то, что большинство CMS <b>без дополнительной защиты</b> рано или поздно <b>взламывают</b>.<p> Компания <a href="https://revisium.com/">"Ревизиум"</a> предлагает услугу превентивной защиты сайта от взлома с использованием уникальной <b>процедуры "цементирования сайта"</b>. Подробно на <a href="https://revisium.com/ru/client_protect/">странице услуги</a>. <p>Лучшее лечение &mdash; это профилактика.
+ </div>
+  
+ <div class="clear"></div>
+ 
+ <div class="title">Критические замечания</div><div class="ok"><b>Вредоносные скрипты не найдены. Попробуйте сканер в режиме "Параноидальный".</b></div><div style="margin-top: 20px" class="title">Предупреждения</div><div class="note_warn">Скрытые файлы (1)</div><div class="warn">/var/www/rostyslav-842/data/www/osagoua.com.ua/.git</div><div class="spacer"></div>
+<div class="note_warn">Большие файлы (больше чем 600.00 Kb). Пропущено</div><div class="warn"><div class="flist"><table cellspacing=1 cellpadding=4 border=0 id="table_5026450"><thead><tr class="tbgh0"><th width=70%>Путь</th><th>Изменение свойств</th><th>Изменение содержимого</th><th width=90>Размер</th><th width=0 class="hidd">CRC32</th><th width=0 class="hidd"></th><th width=0 class="hidd"></th><th width=0 class="hidd"></th></tr></thead><tbody><tr class="tbg0" o="id_z3313418"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/images/news/news_prev.png</a></div></td><td align=center><div class="ctd">03/02/2016 16:11:19</div></td><td align=center><div class="ctd">03/02/2016 16:11:19</div></td><td align=center><div class="ctd">1.19 Mb</div></td><td class="hidd"><div class="hidd">6876722b8369c09cd5abbc0c2e9d1a2d5d7b3a50</div></td><td class="hidd"><div class="hidd">1454508679</div></td><td class="hidd"><div class="hidd">1454508679</div></td><td class="hidd"><div class="hidd">id_z3313418</div></td></tr><tr class="tbg1" o="id_z3937897"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/images/img_osago/news_prev.png</a></div></td><td align=center><div class="ctd">03/02/2016 16:11:19</div></td><td align=center><div class="ctd">03/02/2016 16:11:19</div></td><td align=center><div class="ctd">1.19 Mb</div></td><td class="hidd"><div class="hidd">6fe0d89e8774b0a050aa1e9994d4febdeea6581a</div></td><td class="hidd"><div class="hidd">1454508679</div></td><td class="hidd"><div class="hidd">1454508679</div></td><td class="hidd"><div class="hidd">id_z3937897</div></td></tr><tr class="tbg0" o="id_z7528242"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/.git/index</a></div></td><td align=center><div class="ctd">03/02/2016 16:08:26</div></td><td align=center><div class="ctd">03/02/2016 16:08:26</div></td><td align=center><div class="ctd">616.17 Kb</div></td><td class="hidd"><div class="hidd">00f702fa6de61d0856bbf95865779eb1af07e4d5</div></td><td class="hidd"><div class="hidd">1454508506</div></td><td class="hidd"><div class="hidd">1454508506</div></td><td class="hidd"><div class="hidd">id_z7528242</div></td></tr><tr class="tbg1" o="id_z5079940"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/.git/objects/5a/2b9949d480c1e910e231c59daf5420b69d2350</a></div></td><td align=center><div class="ctd">03/02/2016 16:09:21</div></td><td align=center><div class="ctd">03/02/2016 16:09:21</div></td><td align=center><div class="ctd">1.19 Mb</div></td><td class="hidd"><div class="hidd">656cbee120084492f4eaa5d75b9b7d47df58696c</div></td><td class="hidd"><div class="hidd">1454508561</div></td><td class="hidd"><div class="hidd">1454508561</div></td><td class="hidd"><div class="hidd">id_z5079940</div></td></tr><tr class="tbg0" o="id_z3567467"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/tmp/Joomla_3.4.x_to_3.4.8-Stable-Patch_Package.zip</a></div></td><td align=center><div class="ctd">03/02/2016 16:28:39</div></td><td align=center><div class="ctd">03/02/2016 16:28:39</div></td><td align=center><div class="ctd">3.96 Mb</div></td><td class="hidd"><div class="hidd">9870644b9d7571ee96eeaeda2c8d7c5858b10f92</div></td><td class="hidd"><div class="hidd">1454509719</div></td><td class="hidd"><div class="hidd">1454509719</div></td><td class="hidd"><div class="hidd">id_z3567467</div></td></tr><tr class="tbg1" o="id_z1913166"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/AIBOLIT-WHITELIST.db</a></div></td><td align=center><div class="ctd">15/02/2016 11:45:46</div></td><td align=center><div class="ctd">06/02/2016 14:19:24</div></td><td align=center><div class="ctd">2.60 Mb</div></td><td class="hidd"><div class="hidd">2da1d20fad5a0be2809dd214af8aeb39f820585a</div></td><td class="hidd"><div class="hidd">1455529546</div></td><td class="hidd"><div class="hidd">1454761164</div></td><td class="hidd"><div class="hidd">id_z1913166</div></td></tr></tbody></table></div><div class=clear style="margin: 20px 0 0 0"></div></div><div class="note_warn">В не .php файле содержится стартовая сигнатура PHP кода. Возможно, там вредоносный код</div><div class="warn"><div class="flist"><table cellspacing=1 cellpadding=4 border=0 id="table_7033891"><thead><tr class="tbgh0"><th width=70%>Путь</th><th>Изменение свойств</th><th>Изменение содержимого</th><th width=90>Размер</th><th width=0 class="hidd">CRC32</th><th width=0 class="hidd"></th><th width=0 class="hidd"></th><th width=0 class="hidd"></th></tr></thead><tbody><tr class="tbg0" o="id_z1194763"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/libraries/vendor/leafo/lessphp/lessify</a></div><div class="details"><span class="line_no">1</span>#!/usr/bin/php&lt;<span class="marker">&nbsp;</span>?php if(php_sapi_name()!=&quot;cli&quot;){err($fa.$argv[0].&quot; must be run in the command l</div></td><td align=center><div class="ctd">03/02/2016 16:11:37</div></td><td align=center><div class="ctd">03/02/2016 16:11:37</div></td><td align=center><div class="ctd">414 b</div></td><td class="hidd"><div class="hidd">4039bbca86d9fb0fbe8f4c64e60c18a13a9207ab</div></td><td class="hidd"><div class="hidd">1454508697</div></td><td class="hidd"><div class="hidd">1454508697</div></td><td class="hidd"><div class="hidd">id_z1194763</div></td></tr><tr class="tbg1" o="id_z2842596"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/libraries/vendor/joomla/string/src/phputf8/README</a></div><div class="details"><span class="line_no">1</span>…e used to determine this information;&lt;?php print &quot;PHP Version: &quot;.phpversion().&quot;&lt;<span class="marker">&nbsp;</span>br&gt;&quot;;if(extension_loaded(&#039;mbstring&#039;)){print &quot;mbstring available&lt;br&gt;&quot;;}else{prin</div></td><td align=center><div class="ctd">03/02/2016 16:11:50</div></td><td align=center><div class="ctd">03/02/2016 16:11:50</div></td><td align=center><div class="ctd">3.21 Kb</div></td><td class="hidd"><div class="hidd">0db68ab318128db056781e41bcc4064f2f8afa33</div></td><td class="hidd"><div class="hidd">1454508710</div></td><td class="hidd"><div class="hidd">1454508710</div></td><td class="hidd"><div class="hidd">id_z2842596</div></td></tr><tr class="tbg0" o="id_z5050769"><td><div class="it"><a class="it">/var/www/rostyslav-842/data/www/osagoua.com.ua/libraries/phputf8/README</a></div><div class="details"><span class="line_no">1</span>…e used to determine this information;&lt;?php print &quot;PHP Version: &quot;.phpversion().&quot;&lt;<span class="marker">&nbsp;</span>br&gt;&quot;;if(extension_loaded(&#039;mbstring&#039;)){print &quot;mbstring available&lt;br&gt;&quot;;}else{prin</div></td><td align=center><div class="ctd">03/02/2016 16:11:26</div></td><td align=center><div class="ctd">03/02/2016 16:11:26</div></td><td align=center><div class="ctd">3.21 Kb</div></td><td class="hidd"><div class="hidd">0db68ab318128db056781e41bcc4064f2f8afa33</div></td><td class="hidd"><div class="hidd">1454508686</div></td><td class="hidd"><div class="hidd">1454508686</div></td><td class="hidd"><div class="hidd">id_z5050769</div></td></tr></tbody></table></div><div class=clear style="margin: 20px 0 0 0"></div></div>
+<div class="note_warn">Версии найденных CMS<br/>Joomla v3.4.8</div>
+ 
+	<div class="footer">
+	   <div class="disclaimer"><span class="vir">[!]</span> Отказ от гарантий: невозможно гарантировать обнаружение всех вредоносных скриптов. Поэтому разработчик сканера не несет ответственности за возможные последствия работы сканера AI-Bolit или неоправданные ожидания пользователей относительно функциональности и возможностей.
+   </div>
+   <div class="thanx">
+      Замечания и предложения по работе скрипта, а также не обнаруженные вредоносные скрипты вы можете присылать на <a href="mailto:ai@revisium.com">ai@revisium.com</a>.<br/>
+      Также будем чрезвычайно благодарны за любые упоминания сканера AI-Bolit на вашем сайте, в блоге, среди друзей, знакомых и клиентов. <br/>Ссылку можно поставить на страницу <a href="https://revisium.com/ai/">https://revisium.com/ai/</a>.<br/> 
+     <p>Получить консультацию или задать вопросы можно по email <a href="mailto:ai@revisium.com">ai@revisium.com</a>.</p> 
+	</div>
+	</div>
+	
+<script language="javascript">
+
+function hsig(id) {
+  var divs = document.getElementsByTagName("tr");
+  for(var i = 0; i < divs.length; i++){
+     
+     if (divs[i].getAttribute('o') == id) {
+        divs[i].innerHTML = '';
+     }
+  }
+
+  return false;
+}
+
+
+$(document).ready(function(){
+    $('#table_crit').dataTable({
+       "aLengthMenu": [[100 , 500, -1], [100, 500, "All"]],
+       "aoColumns": [
+                                     {"iDataSort": 7, "width":"70%"},
+                                     {"iDataSort": 5},
+                                     {"iDataSort": 6},
+                                     {"bSortable": true},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false}
+                     ],
+		"paging": true,
+       "iDisplayLength": 500,
+		"oLanguage": {
+			"sLengthMenu": "Отображать по _MENU_ записей",
+			"sZeroRecords": "Ничего не найдено",
+			"sInfo": "Отображается c _START_ по _END_ из _TOTAL_ файлов",
+			"sInfoEmpty": "Нет файлов",
+			"sInfoFiltered": "(всего записей _MAX_)",
+			"sSearch":       "Поиск:",
+			"sUrl":          "",
+			"oPaginate": {
+				"sFirst": "Первая",
+				"sPrevious": "Предыдущая",
+				"sNext": "Следующая",
+				"sLast": "Последняя"
+			},
+			"oAria": {
+				"sSortAscending":  ": активировать для сортировки столбца по возрастанию",
+				"sSortDescending": ": активировать для сортировки столбцов по убыванию"			
+			}
+		}
+
+     } );
+
+});
+
+$(document).ready(function(){
+    $('#table_vir').dataTable({
+       "aLengthMenu": [[100 , 500, -1], [100, 500, "All"]],
+		"paging": true,
+       "aoColumns": [
+                                     {"iDataSort": 7, "width":"70%"},
+                                     {"iDataSort": 5},
+                                     {"iDataSort": 6},
+                                     {"bSortable": true},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false}
+                     ],
+       "iDisplayLength": 500,
+		"oLanguage": {
+			"sLengthMenu": "Отображать по _MENU_ записей",
+			"sZeroRecords": "Ничего не найдено",
+			"sInfo": "Отображается c _START_ по _END_ из _TOTAL_ файлов",
+			"sInfoEmpty": "Нет файлов",
+			"sInfoFiltered": "(всего записей _MAX_)",
+			"sSearch":       "Поиск:",
+			"sUrl":          "",
+			"oPaginate": {
+				"sFirst": "Первая",
+				"sPrevious": "Предыдущая",
+				"sNext": "Следующая",
+				"sLast": "Последняя"
+			},
+			"oAria": {
+				"sSortAscending":  ": активировать для сортировки столбца по возрастанию",
+				"sSortDescending": ": активировать для сортировки столбцов по убыванию"			
+			}
+		},
+
+     } );
+
+});
+
+if ($('#table_warn0')) {
+    $('#table_warn0').dataTable({
+       "aLengthMenu": [[100 , 500, -1], [100, 500, "All"]],
+		"paging": true,
+       "aoColumns": [
+                                     {"iDataSort": 7, "width":"70%"},
+                                     {"iDataSort": 5},
+                                     {"iDataSort": 6},
+                                     {"bSortable": true},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false}
+                     ],
+       "iDisplayLength": 500,
+		"paging": true,
+		"oLanguage": {
+			"sLengthMenu": "Отображать по _MENU_ записей",
+			"sZeroRecords": "Ничего не найдено",
+			"sInfo": "Отображается c _START_ по _END_ из _TOTAL_ файлов",
+			"sInfoEmpty": "Нет файлов",
+			"sInfoFiltered": "(всего записей _MAX_)",
+			"sSearch":       "Поиск:",
+			"sUrl":          "",
+			"oPaginate": {
+				"sFirst": "Первая",
+				"sPrevious": "Предыдущая",
+				"sNext": "Следующая",
+				"sLast": "Последняя"
+			},
+			"oAria": {
+				"sSortAscending":  ": активировать для сортировки столбца по возрастанию",
+				"sSortDescending": ": активировать для сортировки столбцов по убыванию"			
+			}
+		}
+
+     } );
+}
+
+if ($('#table_warn1')) {
+    $('#table_warn1').dataTable({
+       "aLengthMenu": [[100 , 500, -1], [100, 500, "All"]],
+		"paging": true,
+       "aoColumns": [
+                                     {"iDataSort": 7, "width":"70%"},
+                                     {"iDataSort": 5},
+                                     {"iDataSort": 6},
+                                     {"bSortable": true},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false}
+                     ],
+       "iDisplayLength": 500,
+		"oLanguage": {
+			"sLengthMenu": "Отображать по _MENU_ записей",
+			"sZeroRecords": "Ничего не найдено",
+			"sInfo": "Отображается c _START_ по _END_ из _TOTAL_ файлов",
+			"sInfoEmpty": "Нет файлов",
+			"sInfoFiltered": "(всего записей _MAX_)",
+			"sSearch":       "Поиск:",
+			"sUrl":          "",
+			"oPaginate": {
+				"sFirst": "Первая",
+				"sPrevious": "Предыдущая",
+				"sNext": "Следующая",
+				"sLast": "Последняя"
+			},
+			"oAria": {
+				"sSortAscending":  ": активировать для сортировки столбца по возрастанию",
+				"sSortDescending": ": активировать для сортировки столбцов по убыванию"			
+			}
+		}
+
+     } );
+}
+
+
+</script>
+ </body>
+</html>

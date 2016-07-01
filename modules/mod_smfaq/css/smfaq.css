@@ -1,0 +1,19 @@
+.mod_smfaq {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.mod_smfaq li {
+	border-bottom: 1px dotted silver;	
+	padding: 10px 0;
+}
+.mod_smfaq li:first-child {
+	padding-top:0;
+}
+.mod_smfaq .question-item {
+	cursor: pointer;
+}
+.mod_smfaq .question-item .question-label {
+	float:left;
+	margin-right: 5px;
+}

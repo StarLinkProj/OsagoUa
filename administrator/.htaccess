@@ -1,0 +1,4 @@
+AuthName "Please, enter your login and password"
+AuthType Basic
+AuthUserFile /var/www/rostyslav-842/data/www/osagoua.com.ua/administrator/.htpasswd
+require valid-user

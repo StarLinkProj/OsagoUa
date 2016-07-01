@@ -1,0 +1,505 @@
+/* cacheid:166c0029d8b7b990e5040729f3ff65bd */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+#system-message .alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#system-message .alert .alert-link {
+  font-weight: bold;
+}
+#system-message .alert > p,
+#system-message .alert > ul {
+  margin: 0;
+}
+#system-message .alert > p + p {
+  margin-top: 5px;
+}
+#system-message .close {
+  position: relative;
+  line-height: 20px;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 #ffffff;
+  text-decoration: none;
+  zoom: 1;
+  opacity: 0.2;
+  filter: alpha(opacity= 20 );
+}
+#system-message .close:hover,
+#system-message .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  zoom: 1;
+  opacity: 0.4;
+  filter: alpha(opacity= 40 );
+}
+#system-message .alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+#system-message .alert-notice hr {
+  border-top-color: #c9e2b3;
+}
+#system-message .alert-notice .alert-link {
+  color: #2b542c;
+}
+#system-message .alert-message {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+#system-message .alert-message hr {
+  border-top-color: #a6e1ec;
+}
+#system-message .alert-message .alert-link {
+  color: #245269;
+}
+#system-message .alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+#system-message .alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+#system-message .alert-warning .alert-link {
+  color: #66512c;
+}
+#system-message .alert-error {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+#system-message .alert-error hr {
+  border-top-color: #e4b9c0;
+}
+#system-message .alert-error .alert-link {
+  color: #843534;
+}
+#system-message {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+#system-message dt {
+  position: absolute;
+  top: -2000px;
+  left: -3000px;
+}
+#system-message dd {
+  margin: 0 0 15px 0;
+  font-weight: bold;
+  text-indent: 0px;
+  padding: 0;
+}
+#system-message dd ul {
+  color: #000;
+  list-style: none;
+  padding: 0px;
+}
+#system-message dd ul li {
+  line-height: 1.5em;
+}
+#system-message dd.message ul {
+  padding: 10px 10px 10px 40px;
+  border-top: 2px solid #90B203;
+  border-bottom: 2px solid #90B203;
+}
+#system-message dd.error ul {
+  padding: 10px 10px 10px 40px;
+  border-top: 2px solid #990000;
+  border-bottom: 2px solid #990000;
+}
+#system-message dd.notice ul {
+  padding: 10px 10px 10px 40px;
+  border-top: 2px solid #FAA528;
+  border-bottom: 2px solid #FAA528;
+  color: #000;
+  margin: 10px 0;
+}
+#page-error {
+  background: #F0F0F0;
+}
+#page-error h1 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+#page-error .component-wrapper {
+  padding: 30px 10px;
+}
+#page-error .errorinfo {
+  font-size: 14px;
+  font-family: Courier, Monaco, "Lucida Console";
+}
+#page-error .errorinfo pre {
+  white-space: pre;
+  padding: 0.5em 0 0.5em 1em;
+  border: 1px dashed #AAA;
+  border-left: 4px solid #B4B4B4;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  background: #EEE;
+  font-size: 0.8em;
+  max-width: 100%;
+  overflow: auto !important;
+  overflow-y: hidden;
+  max-height: 200px;
+}
+#page-error .errorinfo table td {
+  padding: 4px;
+}
+#page-error .errorinfo table strong {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+div#system-debug {
+  font-family: Courier, Monaco, "Lucida Console";
+  background-color: #fff;
+  color: #333;
+  max-width: 1200px;
+  margin: 10px auto 50px;
+}
+div#system-debug a {
+  text-decoration: none !important;
+}
+div#system-debug table td {
+  padding: 2px 6px;
+}
+#page-offline {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
+#page-offline img {
+  border: 0 none;
+  margin-left: auto;
+  margin-right: auto;
+}
+#page-offline #frame {
+  margin: 20px auto;
+  width: 405px;
+  padding: 20px;
+}
+#page-offline #frame img {
+  max-width: 100%;
+  height: auto;
+}
+#page-offline form {
+  margin: auto;
+  text-align: left;
+}
+#page-offline form p {
+  margin: 0;
+  padding: 4px 0 4px 0;
+}
+#page-offline form fieldset {
+  border: 0 none;
+  margin: 0em;
+  padding: 0.2em;
+}
+#page-offline form fieldset .input p {
+  clear: left;
+}
+#page-offline form label {
+  display: block;
+  float: left;
+  margin: 5px 0px 2px 0px;
+  width: 10em;
+}
+#page-offline form input {
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+#page-offline form input[type=text],
+#page-offline form input[type=password] {
+  width: 200px;
+}
+#page-offline form input.button {
+  width: 120px;
+  height: 32px;
+  cursor: pointer;
+  background-color: #fff;
+}
+#page-offline form input.button:hover {
+  border-color: #fc902e;
+}
+#page-offline form #frmlogin {
+  margin: 0 10px 0 10px;
+}
+#page-offline form #frmlogin fieldset.button {
+  text-align: right;
+}
+#page-offline #system-message {
+  margin: 10px auto;
+  padding: 20px 0 0;
+  width: 450px;
+}
+#page-offline #system-message h4 {
+  display: none;
+}
+.clearfix {
+  display: block;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix {
+  height: 1%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.example-smallImage-to-base64 {
+  background: url('http://osagoua.com.ua/templates/osago/images/test.png');
+  -test1-background: url(/var/www/rostyslav-842/data/www/osagoua.com.ua/templates/osago/images/test.png);
+  -test2-background: url(/var/www/rostyslav-842/data/www/osagoua.com.ua/templates/osago/images/inner/test.png) 0 50% no-repeat;
+}
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22http%3A%5C%2F%5C%2Fosagoua.com.ua%5C%2Ftemplates%5C%2Fosago%5C%2Fless%5C%2Flayouts%5C%2Freset.less%22%2C%22http%3A%5C%2F%5C%2Fosagoua.com.ua%5C%2Ftemplates%5C%2Fosago%5C%2Fless%5C%2Flayouts%5C%2Fmessages.less%22%2C%22http%3A%5C%2F%5C%2Fosagoua.com.ua%5C%2Ftemplates%5C%2Fosago%5C%2Fless%5C%2Fmisc%5C%2Fmixins.less%22%2C%22http%3A%5C%2F%5C%2Fosagoua.com.ua%5C%2Ftemplates%5C%2Fosago%5C%2Fless%5C%2Flayouts%5C%2Ferror.less%22%2C%22http%3A%5C%2F%5C%2Fosagoua.com.ua%5C%2Ftemplates%5C%2Fosago%5C%2Fless%5C%2Flayouts%5C%2Fdebug.less%22%2C%22http%3A%5C%2F%5C%2Fosagoua.com.ua%5C%2Ftemplates%5C%2Fosago%5C%2Fless%5C%2Flayouts%5C%2Foffline.less%22%2C%22http%3A%5C%2F%5C%2Fosagoua.com.ua%5C%2Ftemplates%5C%2Fosago%5C%2Fless%5C%2Ftemplate.less%22%2C%22http%3A%5C%2F%5C%2Fosagoua.com.ua%5C%2Ftemplates%5C%2Fosago%5C%2Fless%5C%2Fmedia%5C%2Fprint.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22AAcA%3BEACI%3BEACI%3BEACJ%3BEACA%3B%3BAAIJ%3BEACI%3B%3BAAMJ%3BAAAS%3BAAAO%3BAAAS%3BAAAY%3BAAAQ%3BAAAQ%3BAAAQ%3BAAAQ%3BAAAM%3BAAAK%3BAAAS%3BEACrF%3B%3BAAOJ%3BAAAO%3BAAAQ%3BAAAU%3BEACrB%3BEACA%3B%3BAAKJ%2CKAAK%2CIAAI%3BEACL%3BEACA%3B%3BAAKJ%3BAAAU%3BEACN%3B%3BAAIJ%3BEACI%3B%3BAAIJ%2CCAAC%3BAACD%2CCAAC%3BEACG%3B%3BAAIJ%2CIAAI%3BEACA%2CyBAAA%3B%3BAAIJ%3BAAAG%3BEACC%3B%3BAAIJ%3BEACI%3B%3BAAKJ%3BEACI%3BEACA%2CgBAAA%3B%3BAAIJ%3BEACI%3BEACA%3B%3BAAIJ%3BEACI%3B%3BAAIJ%3BAAAK%3BEACD%3BEACA%3BEACA%3BEACA%3B%3BAAGJ%3BEACI%3B%3BAAGJ%3BEACI%3B%3BAAIJ%3BEACI%3B%3BAAIJ%2CGAAG%2CIAAI%3BEACH%3B%3BAAIJ%3BEACI%2CgBAAA%3B%3BAAIJ%3BEACI%3BEACK%3BEACL%3B%3BAAIJ%3BEACI%3B%3BAAIJ%3BAAAM%3BAAAK%3BAAAK%3BEACZ%2CiCAAA%3BEACA%3B%3BAAOJ%3BAAAQ%3BAAAO%3BAAAU%3BAAAQ%3BEAC7B%3BEACA%3BEACA%3B%3BAAIJ%3BEACI%3B%3BAAOJ%3BAAAQ%3BEACJ%3B%3BAAMJ%3BAACA%2CIAAK%2CMAAK%3BAACV%2CKAAK%3BAACL%2CKAAK%3BEACD%3BEACA%3B%3BAAIJ%2CMAAM%3BAACN%2CIAAK%2CMAAK%3BEACN%3B%3BAAIJ%2CMAAM%3BAACN%2CKAAK%3BEACD%3BEACA%3B%3BAAKJ%3BEACI%3B%3BAAOJ%2CKAAK%3BAACL%2CKAAK%3BEACD%3BEACA%3B%3BAAMJ%2CKAAK%2CeAAe%3BAACpB%2CKAAK%2CeAAe%3BEAChB%3B%3BAAKJ%2CKAAK%3BEACD%3BEACA%3BEACG%3BEACK%3B%3BAAMZ%2CKAAK%2CeAAe%3BAACpB%2CKAAK%2CeAAe%3BEAChB%3B%3BAAIJ%3BEACI%2CyBAAA%3BEACA%2CaAAA%3BEACA%2C8BAAA%3B%3BAAKJ%3BEACI%3BEACA%3B%3BAAIJ%3BEACI%3B%3BAAKJ%3BEACI%3B%3BAAIJ%3BEACI%3BEACA%3B%3BAAGJ%3BAAAI%3BEACA%3B%3BAC1NJ%2CeAEI%3BEACI%2CaAAA%3BEACA%2CmBAAA%3BEACA%2C6BAAA%3BEC6DQ%2CkBAAA%3B%3BADlEhB%2CeAEI%2COAOI%3BEACI%3B%3BAAVZ%2CeAEI%2COAWM%3BAAbV%2CeAEI%2COAYM%3BEACE%3B%3BAAfZ%2CeAEI%2COAgBM%2CIAAI%3BEACF%3B%3BAAnBZ%2CeAwBI%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%2C4BAAA%3BEACA%3BEC%2BOA%3BEACA%2CYAAA%3BEACA%2C2BAAA%3B%3BAD%5C%2FOA%2CeAVJ%2COAUK%3BAACD%2CeAXJ%2COAWK%3BEACG%3BEACA%3BEACA%3BECyOJ%3BEACA%2CYAAA%3BEACA%2C2BAAA%3B%3BADjRR%2CeA2CI%3BEAvDA%2CyBAAA%3BEACA%2CqBAAA%3BEACA%2CcAAA%3B%3BAAUJ%2CeA2CI%2CcAnDA%3BEACI%2CyBAAA%3B%3BAAOR%2CeA2CI%2CcAhDA%3BEACI%2CcAAA%3B%3BAAIR%2CeA%2BCI%3BEA3DA%2CyBAAA%3BEACA%2CqBAAA%3BEACA%2CcAAA%3B%3BAAUJ%2CeA%2BCI%2CeAvDA%3BEACI%2CyBAAA%3B%3BAAOR%2CeA%2BCI%2CeApDA%3BEACI%2CcAAA%3B%3BAAIR%2CeAmDI%3BEA%5C%2FDA%2CyBAAA%3BEACA%2CqBAAA%3BEACA%2CcAAA%3B%3BAAUJ%2CeAmDI%2CeA3DA%3BEACI%2CyBAAA%3B%3BAAOR%2CeAmDI%2CeAxDA%3BEACI%2CcAAA%3B%3BAAIR%2CeAuDI%3BEAnEA%2CyBAAA%3BEACA%2CqBAAA%3BEACA%2CcAAA%3B%3BAAUJ%2CeAuDI%2CaA%5C%2FDA%3BEACI%2CyBAAA%3B%3BAAOR%2CeAuDI%2CaA5DA%3BEACI%2CcAAA%3B%3BAAkER%3BEACI%3BEACA%3BEACA%3B%3BAAHJ%2CeAII%3BEACI%3BEACA%3BEACA%3B%3BAAPR%2CeASI%3BEACI%2CkBAAA%3BEACA%3BEACA%3BEACA%3B%3BAAbR%2CeASI%2CGAKI%3BEACI%3BEACA%3BEACA%3B%3BAAjBZ%2CeASI%2CGAKI%2CGAII%3BEACI%3B%3BAAnBhB%2CeAuBI%2CGAAE%2CQACE%3BEACI%2C4BAAA%3BEACA%2C6BAAA%3BEACA%2CgCAAA%3B%3BAA3BZ%2CeA8BI%2CGAAE%2CMACE%3BEACI%2C4BAAA%3BEACA%2C6BAAA%3BEACA%2CgCAAA%3B%3BAAlCZ%2CeAqCI%2CGAAE%2COACE%3BEACI%2C4BAAA%3BEACA%2C6BAAA%3BEACA%2CgCAAA%3BEACA%3BEACA%2CcAAA%3B%3BAElJZ%3BEAEI%3B%3BAAFJ%2CWAII%3BEACI%2CyCAAA%3B%3BAALR%2CWAQI%3BEACI%2CkBAAA%3B%3BAATR%2CWAYI%3BEACI%3BEACA%2C8BAA8B%2CgBAA9B%3B%3BAAdR%2CWAYI%2CWAII%3BEACI%3BEACA%2C0BAAA%3BEACA%2CuBAAA%3BEACA%2C8BAAA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAA5BZ%2CWAYI%2CWAmBI%2CMACI%3BEACI%3B%3BAAjChB%2CWAYI%2CWAmBI%2CMAII%3BEACI%3BEACA%3BEACA%2CyCAAA%3B%3BACpChB%2CGAAG%3BEAEC%2C8BAA8B%2CgBAA9B%3BEACA%3BEACA%3BEACA%3BEACA%2CsBAAA%3B%3BAANJ%2CGAAG%2CaAQC%3BEACI%3B%3BAATR%2CGAAG%2CaAYC%2CMACI%3BEACI%2CgBAAA%3B%3BACjBZ%3BEACI%3BEACA%3BEACA%3BEACA%3BEACA%3B%3BAALJ%2CaAOI%3BEACI%2CcAAA%3BEACA%3BEACA%3B%3BAAVR%2CaAaI%3BEACI%2CiBAAA%3BEACA%3BEACA%3B%3BAAhBR%2CaAaI%2COAKI%3BEACI%3BEACA%3B%3BAApBZ%2CaAyBI%3BEACI%3BEACA%3B%3BAA3BR%2CaAyBI%2CKAII%3BEACI%3BEACA%2CoBAAA%3B%3BAA%5C%2FBZ%2CaAyBI%2CKASI%3BEACI%2CcAAA%3BEACA%3BEACA%3B%3BAArCZ%2CaAyBI%2CKASI%2CSAII%2COAAO%3BEACH%3B%3BAAvChB%2CaAyBI%2CKAkBI%3BEACI%3BEACA%3BEACA%2CuBAAA%3BEACA%3B%3BAA%5C%2FCZ%2CaAyBI%2CKAyBI%3BEACI%3BEACA%2CsBAAA%3BEACA%3B%3BAAEA%2CaA9BR%2CKAyBI%2CMAKK%3BAAAa%2CaA9BtB%2CKAyBI%2CMAKmB%3BEACX%3B%3BAAGJ%2CaAlCR%2CKAyBI%2CMASK%3BEACG%3BEACA%3BEACA%3BEACA%3B%3BAACA%2CaAvCZ%2CKAyBI%2CMASK%2COAKI%3BEACG%3B%3BAAjEpB%2CaAyBI%2CKA6CI%3BEACI%2CqBAAA%3B%3BAAvEZ%2CaAyBI%2CKA6CI%2CUAEI%2CSAAQ%3BEACJ%3B%3BAAzEhB%2CaA8EI%3BEACI%2CiBAAA%3BEACA%2CiBAAA%3BEACA%3B%3BAAjFR%2CaA8EI%2CgBAII%3BEACI%3B%3BAC3EZ%3BEJmNQ%3B%3BAACA%2CSAAC%3BEACG%3BEACA%3BEACA%3BEACA%2CSAAS%2CGAAT%3BEACA%3BEACA%3B%3BAAEJ%2CCAAE%2CKAAK%3BEACH%3B%3BAIlNZ%3BEACI%3BEACA%3B%3BAAKJ%3BEACI%2CgBAAgB%2CwDAAhB%3BEACA%2CsGAAA%3BEACA%2C4HAAA%3B%3BAAOJ%3BEC1CA%3BIACI%3BIACA%3BIACA%3BIACA%3B%3BEAGJ%3BEAAG%2CCAAC%3BIACA%3B%3BEAGJ%2CCAAC%2CMAAM%3BIACH%2CSAAS%2CKAAK%2CWAAW%2CGAAzB%3B%3BEAGJ%2CIAAI%2COAAO%3BIACP%2CSAAS%2CKAAK%2CYAAY%2CGAA1B%3B%3BEAIJ%2CGAAI%2CEAAC%3BEACL%2CCAAC%2CqBAAqB%3BEACtB%2CCAAC%2CWAAW%3BIACR%2CSAAS%2CEAAT%3B%3BEAGJ%3BEAAK%3BIACD%2CsBAAA%3BIACA%3B%3BEAGJ%3BIACI%3B%3BEAGJ%3BEAAI%3BIACA%3B%3BEAGJ%3BIACI%3B%3BEAGJ%3BIACI%3B%3BEAGJ%3BEAAG%3BEAAI%3BIACH%3BIACA%3B%3BEAGJ%3BEAAI%3BIACA%3B%3BEAIJ%3BIACI%22%7D */
